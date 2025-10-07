@@ -66,8 +66,14 @@ print(f"£{calculate_total(100, 0.08, 10):.2f}")
 **Modify:**
 - Add a tip parameter with a default of 12%
 
-**Make:**
-- Create a function that calculates the final grade with weighted assignments (homework 30%, tests 70%)
+**Make:** (make something *new* based off the learnings from the task above. You can start a new py file, or create in existing file. Up to you).
+
+* Weighted Final Grade Calculator 
+* The goal is to create a function that calculates a student's final grade based on a specific weighted average: 30% for homework and 70% for tests.
+
+* `Final Grade=(Homework Score×0.30)+(Test Score×0.70)`
+
+* We will use default parameters for the weights (0.30 and 0.70) to allow for flexibility, ensuring the function can be reused even if the course weighting changes.
 
 ---
 
