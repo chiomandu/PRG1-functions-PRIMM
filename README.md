@@ -25,7 +25,9 @@ print(celsius_to_fahrenheit(100))
 
 **Investigate:** 
 - What does the formula `(celsius * 9/5) + 32` do?
+converts celcuis to fahrenheit
 - What happens if you pass negative numbers?
+Sends it through
 - Try `celsius_to_fahrenheit(-40)`
 
 **Modify:**
